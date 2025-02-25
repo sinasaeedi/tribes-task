@@ -23,5 +23,16 @@ return [
         'categories' => 'Categories',
         'category'   => 'Category',
         'name'       => 'Name',
-    ]
+    ],
+
+    'product'    => [
+        'products'    => 'Products',
+        'product'     => 'Product',
+        'name'        => 'Name',
+        'sku'         => 'SKU',
+        'brand'       => 'Brand',
+        'color'       => 'Color',
+        'description' => 'Description',
+        'categories'  => 'Categories',
+    ],
 ];
