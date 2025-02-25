@@ -6,13 +6,14 @@ This repository contains the Tribes Task project. Follow the instructions below 
 
 ### 1. Clone the project
 ```bash
-git clone <repository-url>
+git clone https://github.com/sinasaeedi/tribes-task
 cd tribes-task
 ```
 
 ### 2. Set up environment variables
 ```bash
 cp .env.example .env
+php artisan key:generate
 ```
 
 ### 3. Configure the database
