@@ -61,6 +61,14 @@ class ProductResource extends Resource
                     ->unique(ignoreRecord: true)
                     ->maxLength(255),
 
+                Forms\Components\Select::make('categories')
+                    ->label(__('entity.product.categories'))
+                    ->relationship('categories', 'name')
+                    ->required()
+                    ->searchable()
+                    ->multiple()
+                    ->preload(),
+
                 Forms\Components\Select::make('brand_id')
                     ->label(__('entity.product.brand'))
                     ->relationship('brand', 'name')
