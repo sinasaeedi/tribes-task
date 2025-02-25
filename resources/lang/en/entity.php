@@ -13,4 +13,9 @@ return [
         'password' => 'Password',
     ],
 
+    'brand'      => [
+        'brands' => 'Brands',
+        'brand'  => 'Brand',
+        'name'   => 'Name',
+    ]
 ];
