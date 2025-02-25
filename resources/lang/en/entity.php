@@ -17,5 +17,11 @@ return [
         'brands' => 'Brands',
         'brand'  => 'Brand',
         'name'   => 'Name',
+    ],
+
+    'category'   => [
+        'categories' => 'Categories',
+        'category'   => 'Category',
+        'name'       => 'Name',
     ]
 ];
